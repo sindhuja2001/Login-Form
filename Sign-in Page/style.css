@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #eee;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.footerText{
+    text-align: center;
+    margin: 5px;
+}
+
+.signup{
+    background-color: #fff;
+    box-shadow: 8px;
+    width: 20%;
+    height: 100%;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+}
+#signUp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#google{
+    border: 0.5px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+    width: 90%;
+}
+hr{
+    margin: 10px;
+}
+form{
+   border-radius: 8px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+    margin: 5px;
+    width: 90%;
+}
+.form1{
+    width: 90%;
+    padding: 8px;
+    margin: 5px;
+    border: 0.5px solid #ddd;
+    border-radius: 8px;
+    color: rgb(190, 188, 188);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formText{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+button{
+    width: 98%;
+    padding: 8px;
+    background-color: #337DFF;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+#terms{
+    margin: 7px;
+}
+footer{
+    margin: 5px;
+    text-align: center;
+}
+.password input[type= "text"]{
+    padding-left: 40px;
+}
+.password{
+    position: relative;
+}
+.password img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 8px;
+}
+.password1{
+    position: relative;
+}
+.password1 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 8px;
+}
+.signin{
+    position: relative;
+}
+.signin img{
+    position: absolute;
+    padding: 19px 54px;
+    top: 0;
+    left: 0;
+}
+
